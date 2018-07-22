@@ -277,9 +277,9 @@ But deployment seems difficult because there will be so many subsystems.
 
 ### Orchestration
 
-> Orchestration is the automated arrangement, coordination, and management of computer systems, middleware, and services.
-
 - https://en.wikipedia.org/wiki/Orchestration_(computing)
+
+> Orchestration is the automated arrangement, coordination, and management of computer systems, middleware, and services.
 
 - [Docker swarm](https://docs.docker.com/swarm/overview/)
 - [Apache Mesos](http://mesos.apache.org/)
@@ -292,7 +292,6 @@ But deployment seems difficult because there will be so many subsystems.
 - Are all systems green status?
   - Are all resources sufficient?
   - Are All users received expected result? 
-
 - Collect system metrics and build a dashboard.
 - Collect event logs and make them traceable.
 
@@ -300,36 +299,21 @@ But deployment seems difficult because there will be so many subsystems.
 
 ### [12 factors](https://12factor.net/)
 
-1. Codebase  
-One codebase tracked in revision control, many deploys
-2. Dependencies  
-Explicitly declare and isolate dependencies
-3. Config  
-Store config in the environment
-4. Backing services  
-Treat backing services as attached resources
+- **Codebase** One codebase tracked in revision control, many deploys
+- **Dependencies** Explicitly declare and isolate dependencies
+- **Config**  Store config in the environment
+- **Backing services** Treat backing services as attached resources
+- **Build, release, run** Strictly separate build and run stages
 
 ---
 
-5. Build, release, run  
-Strictly separate build and run stages
-6. Processes  
-Execute the app as one or more stateless processes
-7. Port binding  
-Export services via port binding
-8. Concurrency  
-Scale out via the process model
-
----
-
-9. Disposability  
-Maximize robustness with fast startup and graceful shutdown
-10. Dev/prod parity  
-Keep development, staging, and production as similar as possible
-11. Logs  
-Treat logs as event streams
-12. Admin processes  
-Run admin/management tasks as one-off processes
+- **Processes** Execute the app as one or more stateless processes
+- **Port binding** Export services via port binding
+- **Concurrency** Scale out via the process model
+- **Disposability** Maximize robustness with fast startup and graceful shutdown
+- **Dev/prod parity** Keep development, staging, and production as similar as possible
+- **Logs** Treat logs as event streams
+- **Admin processes** Run admin/management tasks as one-off processes
 
 ---
 
