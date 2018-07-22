@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lacti/develop-cloud-service.git"
+    "url": "git+https://github.com/v6x/develop-cloud-service.git"
   },
   "author": "jaeyoung.choi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lacti/develop-cloud-service/issues"
+    "url": "https://github.com/v6x/develop-cloud-service/issues"
   },
-  "homepage": "https://github.com/lacti/develop-cloud-service#readme",
+  "homepage": "https://github.com/v6x/develop-cloud-service#readme",
   "devDependencies": {
     "mermaid.cli": "^0.5.1"
   }
